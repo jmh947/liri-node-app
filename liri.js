@@ -19,9 +19,9 @@ var choose = function (command, value) {
     case "movie-this":
       showMovieInfo(command, value);
       break;
-    case "do-what-it-says":
-      showSomeInfo(command, value);
-      break;
+    // case "do-what-it-says":
+    //   showSomeInfo(command, value);
+    //   break;
     default:
       console.log(
         "Invalid Option. Please type Please type any of the following options: \nconcert-this \nspotify-this-song \nmovie-this \ndo-what-it-says"
@@ -33,6 +33,7 @@ var choose = function (command, value) {
 function showConcertInfo(command, value) {
   console.log(command);
   console.log(value);
+  console.log("~~~~~~~EVENT INFO~~~~~~~")
   var artist = value || "Celine Dion";
   var bandsInTownURL =
     "https://rest.bandsintown.com/artists/" +
@@ -65,6 +66,7 @@ function showConcertInfo(command, value) {
 function showSongInfo(command, value) {
   console.log(command);
   console.log(value);
+  console.log("~~~~~~~SONG INFO~~~~~~~")
   var value = value || "The Sign";
 
   spotify
@@ -84,6 +86,7 @@ function showSongInfo(command, value) {
 function showMovieInfo(command, value) {
   console.log(command);
   console.log(value);
+  console.log("~~~~~~~MOVIE INFO~~~~~~~")
   var value = value || "Mr. Nobody";
   axios.get('http://www.omdbapi.com/?apiKey=936bc22f'+ '&t='+ value).then((response) =>
   { //console.log(response); 
@@ -105,6 +108,10 @@ function showMovieInfo(command, value) {
   }
   }
 
+// function showSomeInfo(command, value) {
+//   console.log(command);
+//   console.log(value);
+// }
 
 
 var runThis = function (arg1, arg2) {
