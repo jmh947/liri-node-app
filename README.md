@@ -15,18 +15,45 @@
       
  _ _ _
  
-* **concert-this** allows you to input an artist and it will give you the date, time, and location of their concerts.
+ ## Step By Step Instructions
+ 1. Open your terminal
+ 
+ 2. Navigate to your liri.js folder
+ 
+ 3. Depending on the output you will get a different response
+
+##### **Example**
+**concert-this** 
+
+node liri.js concert-this <name of artist or band>
+ 
 ![Result] (Screen Shot Concert-this.png)
 
-* **spotify-this-song** allows you to input a song or artist and it will give you info about that artist or song.
+
+##### **Example**
+**spotify-this-song**
+
+node liri.js spotify-this-song <name of song>
+
 ![Result] (Screen Shot Spotify-this-song.png)
 
-* **movie-this** user chooses a movie and liri-bot tells them the year, plot, rating, etc. 
-![Result] (Screen Shot movie-this.png)e
+
+
+##### **Example**
+**movie-this**
+
+node liri.js movie-this <name of movie>
+
+![Result] (Screen Shot movie-this.png)
 
 _ _ _
 
 ## How to Use Liri
 ####Video Tutorial
+
+
+_ _ _
+
+
 
       
