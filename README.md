@@ -1,13 +1,13 @@
 # Liri-Bot-App 
   **Creator:**  `Jaclyn Hardy`
-  **Date:** `04/08/20`
+ * **Date:** `04/08/20`
   _ _ _
   
 # About the App
   LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data. User has 3 options to choose from, those options are:
-     * `concert-this`
-     * `spotify-this-song`
-     * `movie-this`
+     *`concert-this`
+     *`spotify-this-song`
+     *`movie-this`
       
  _ _ _
  
