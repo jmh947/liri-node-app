@@ -27,7 +27,7 @@
 
 node liri.js concert-this <name of artist or band>
  
-![Result] (https://raw.githubusercontent.com/jmh947/liri-node-app/Screen_Shot_Concert-this.png)
+![Result] (https://github.com/jmh947/liri-node-app/screen_shot_concert-this.png)
 
 
 ##### **Example**
@@ -35,7 +35,7 @@ node liri.js concert-this <name of artist or band>
 
 node liri.js spotify-this-song <name of song>
 
-![Result] (Screen Shot Spotify-this-song.png)
+![Result] (https://github.com/jmh947/liri-node-app/screen_shot_spotify-this-song.png)
 
 
 
@@ -44,7 +44,7 @@ node liri.js spotify-this-song <name of song>
 
 node liri.js movie-this <name of movie>
 
-![Result] (Screen Shot movie-this.png)
+![Result] (https://github.com/jmh947/liri-node-app/screen_shot_movie-this.png)
 
 _ _ _
 
