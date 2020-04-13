@@ -4,7 +4,6 @@ var keys = require("./keys.js");
 var Spotify = require("node-spotify-api");
 var spotify = new Spotify(keys.spotify);
 var moment = require("moment");
-moment().format("MM-DD-YYYY");
 var axios = require("axios");
 var command = process.argv[2];
 var value = process.argv[3];
@@ -30,9 +29,6 @@ var choose = function (command, value) {
   }
 };
 
-//OMDB API key
-var omdbApi = "http://www.omdbapi.com/?i=tt3896198&apikey=936bc22f";
-
 //Bands in town function
 function showConcertInfo(command, value) {
   console.log(command);
@@ -50,12 +46,12 @@ function showConcertInfo(command, value) {
     for (let i = 0; i < response.data.length; i++) {
        
       //console.log(response.data);
-      console.log(response.data[0].venue.name);
-      console.log(response.data[0].venue.location);
-      console.log(response.data[0].datetime);
+      console.log(response.data[i].venue.name);
+      console.log(response.data[i].venue.location);
+      console.log(moment(response.data[i].datetime).format("MM/DD/YYYY hh:mm a"));
       
     }
-      //moment().format("MM/DD/YYYY");
+    
      })
     .catch(function (error) {
       // handle error
@@ -89,12 +85,27 @@ function showMovieInfo(command, value) {
   console.log(command);
   console.log(value);
   var value = value || "Mr. Nobody";
-  console.log(
-    "If you haven't watched Mr. Nobody then you should! It is on Netflix"
-  );
-  var OMDB = "";
-  axios.get;
-}
+  axios.get('http://www.omdbapi.com/?apiKey=936bc22f'+ '&t='+ value).then((response) =>
+  { //console.log(response); 
+    console.log("Title: " + response.data.Title);
+    console.log("Release Year: " + response.data.Year);
+    console.log("Rated: " + response.data.Rated);
+    console.log("IMDB Rating: " + response.data.imdbRating);
+    console.log("Country movie was filmed in: " + response.data.Country);
+    console.log("Language: " + response.data.Language);
+    console.log("Plot: " + response.data.Plot);
+    console.log("Actors: " + response.data.Actors);
+  
+  });
+  
+  if (value === "Mr.Nobody") {
+    console.log(
+      "If you haven't watched Mr. Nobody then you should! It is on Netflix"
+    );
+  }
+  }
+
+
 
 var runThis = function (arg1, arg2) {
   choose(arg1, arg2);
