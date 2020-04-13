@@ -16,9 +16,11 @@
  _ _ _
  
 * **concert-this** allows you to input an artist and it will give you the date, time, and location of their concerts.
-![Image of concert-this] (Screen Shot 2020-04-13 at 3.29.36 PM.png)
+![Result] (Screen Shot Concert-this.png)
 
-* **spotify-this-song** allows you to input a song or artist and it will give you info about that artist or song. 
+* **spotify-this-song** allows you to input a song or artist and it will give you info about that artist or song.
+![Result] ()
+
 * **movie-this** user chooses a movie and liri-bot tells them the year, plot, rating, etc. 
 
 _ _ _
