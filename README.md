@@ -22,7 +22,7 @@
 ![Result] (Screen Shot Spotify-this-song.png)
 
 * **movie-this** user chooses a movie and liri-bot tells them the year, plot, rating, etc. 
-![Result] (Screen Shot movie-this.png)
+![Result] (Screen Shot movie-this.png)e
 
 _ _ _
 
