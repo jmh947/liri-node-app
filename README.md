@@ -19,9 +19,10 @@
 ![Result] (Screen Shot Concert-this.png)
 
 * **spotify-this-song** allows you to input a song or artist and it will give you info about that artist or song.
-![Result] ()
+![Result] (Screen Shot Spotify-this-song.png)
 
 * **movie-this** user chooses a movie and liri-bot tells them the year, plot, rating, etc. 
+![Result] (Screen Shot movie-this.png)
 
 _ _ _
 
