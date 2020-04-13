@@ -22,7 +22,7 @@
  
  3. Depending on the output you will get a different response
 
-##### **Example**
+### **Example**
 **concert-this** 
 
 node liri.js concert-this <name of artist or band>
@@ -30,7 +30,7 @@ node liri.js concert-this <name of artist or band>
 ![Result] (https://github.com/jmh947/liri-node-app/screen_shot_concert-this.png)
 
 
-##### **Example**
+### **Example**
 **spotify-this-song**
 
 node liri.js spotify-this-song <name of song>
@@ -39,7 +39,7 @@ node liri.js spotify-this-song <name of song>
 
 
 
-##### **Example**
+### **Example**
 **movie-this**
 
 node liri.js movie-this <name of movie>
