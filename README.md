@@ -29,6 +29,7 @@
 node liri.js concert-this <name of artist or band>
  
 ![Result] (https://github.com/jmh947/liri-node-app/screen_shot_concert-this.png)
+screen_shot_concert-this
 
 
 ### **Example**
