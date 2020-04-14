@@ -48,7 +48,7 @@ node liri.js spotify-this-song <name of song>
 
 node liri.js movie-this <name of movie>
 
-![Result] (https://github.com/jmh947/liri-node-app/screen_shot_movie-this.png)
+![Result] (https://user-images.githubusercontent.com/59854806/79172328-3f1c8480-7da9-11ea-8bd7-8ee0b3c9fd89.png)
 
 _ _ _
 
