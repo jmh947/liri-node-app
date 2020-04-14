@@ -22,6 +22,7 @@
  
  3. Depending on the output you will get a different response
 
+
 ### **Example**
 ----------------------
 **concert-this** 
@@ -31,6 +32,9 @@ node liri.js concert-this <name of artist or band>
 ![Result] (https://user-images.githubusercontent.com/59854806/79172221-f2d14480-7da8-11ea-9158-d92e1b45cb27.png)
 
 
+
+
+
 ### **Example**
 ----------------------
 **spotify-this-song**
@@ -38,6 +42,8 @@ node liri.js concert-this <name of artist or band>
 node liri.js spotify-this-song <name of song>
 
 ![Result] (https://user-images.githubusercontent.com/59854806/79172268-17c5b780-7da9-11ea-92be-67c69a602380.png)
+
+
 
 
 
